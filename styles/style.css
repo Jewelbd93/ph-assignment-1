@@ -217,3 +217,34 @@ nav .menu a,  .header-button{
     max-width: 600px;
     vertical-align: middle;
 }
+
+#early-access .early-access-container {
+
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 0px;
+    margin: 0 120px 120px 120px;
+}
+
+#early-access .early-access-container .early-access-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+#early-access h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+#early-access p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #627382;
+    line-height: 24px;
+}
+
+#early-access .early-access-btn{
+    margin-bottom: 16px;
+}
