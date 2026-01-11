@@ -49,7 +49,13 @@
 }
 
 .image-list {
-  list-style-image: url("../assets/CheckCircle.png");
+    list-style-image: url("../assets/CheckCircle.png");
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #1e3349;
 }
 
 /* Regular CSS */
@@ -247,4 +253,43 @@ nav .menu a,  .header-button{
 
 #early-access .early-access-btn{
     margin-bottom: 16px;
+}
+
+footer{
+    background-color: #001931;
+}
+
+footer .footer-upper {
+    margin: 0 auto;
+    padding: 120px 120px 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-upper h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+footer .footer-upper ul.social-icons{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    align-items: center;
+}
+
+
+footer .footer-bottom {
+    margin: 0 auto;
+    padding: 80px 120px 30px 120px;
+    align-items: center;
+}
+
+footer .footer-bottom p {
+    color: #fff;
+    margin: 30px 0 0 0;
+    text-align: center;
 }
