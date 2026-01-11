@@ -112,4 +112,58 @@ nav .menu a,  .header-button{
 
 .banner-btn{
     margin-top: 32px;
+    display: inline-flex;
+    gap: 16px;
+}
+
+#notes .section-heading{
+    max-width: 1360px;
+    text-align: center;
+}
+
+#notes .section-heading h2{
+    margin-top: 60px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+#notes .section-heading p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382;
+}
+
+#notes .notes-container .notes-items {
+    display: flex;
+    gap: 24px;
+}
+
+.notes-items .notes-card {
+    text-align: center;
+    margin-top: 44px;
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #00000011;
+    max-width: 267px;
+}
+
+.notes-card img {
+    background-color: #F95555;
+    padding: 15px;
+    border-radius: 50%;
+    max-width: 44px;
+    margin: 35px 0px 16px 0;
+}
+
+.notes-card h3 {
+    font-size: 20px;
+    color: #001931;
+    margin-bottom: 20px;
+}
+
+.notes-card p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 28px;
+
 }
