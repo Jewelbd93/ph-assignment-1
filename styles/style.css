@@ -11,7 +11,7 @@
 }
 
 .primary-color{
-    color: #30B868;
+    color: #30B868 !important;
 
 }
 
@@ -46,6 +46,10 @@
     width: 85%;
     max-width: 1360px;
     margin: 0px auto;
+}
+
+.image-list {
+  list-style-image: url("../assets/CheckCircle.png");
 }
 
 /* Regular CSS */
@@ -165,5 +169,51 @@ nav .menu a,  .header-button{
     font-size: 16px;
     color: #627382;
     line-height: 28px;
+}
 
+#second-brain {
+    margin: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#second-brain .second-brain-content {
+    max-width: 600px;
+}
+
+#second-brain .second-brain-content p.primary-color {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#second-brain .second-brain-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 5px;
+}
+
+#second-brain .second-brain-content p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+#second-brain .second-brain-content ul{
+    margin-left: 25px;
+}
+
+#second-brain .second-brain-content ul li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+}
+
+#second-brain .second-brain-image img {
+    max-width: 600px;
+    vertical-align: middle;
 }
